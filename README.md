@@ -13,26 +13,27 @@ jupyter notebook taxi-pricing-project.ipynb
 ## Workflow Summary
 
 ### 1. EDA
-Missing value analysis<br>
-Distribution plots, boxplots, heatmaps<br>
-Chi-Square & ANOVA statistical tests<br>
-Correlation heatmaps<br>
+-Missing value analysis<br>
+-Distribution plots, boxplots, heatmaps<br>
+-Chi-Square & ANOVA statistical tests<br>
+-Correlation heatmaps<br>
+
 Key finding:<br>
 -**Gender** independent from all main features<br>
 -**Type_of_Cab** & **Destination_Type** strongly influence surge pricing<br>
 
 ### 2. Preprocessing
-Missing value handling<br>
-One-Hot Encoding for categorical data<br>
-Scaling<br>
-Stratified train/validation/test splits<br>
+-Missing value handling<br>
+-One-Hot Encoding for categorical data<br>
+-Scaling<br>
+-Stratified train/validation/test splits<br>
 
 ### 3. Feature Engineering
-Customer_Loyalty<br>
-Customer_Experience_Score<br>
-Trip_Efficiency_Score<br>
-Var_Mean (Var2, Var3)<br>
-All validated via ANOVA.<br>
+-Customer_Loyalty<br>
+-Customer_Experience_Score<br>
+-Trip_Efficiency_Score<br>
+-Var_Mean (Var2, Var3)<br>
+-All validated via ANOVA.<br>
 
 ### 4. Modeling:
 
