@@ -3,7 +3,7 @@
 **Dataset source:**
 https://www.kaggle.com/datasets/arashnic/taxi-pricing-with-mobility-analytics
 
-##Workflow Summary
+## Workflow Summary
 
 ### 1. EDA
 Missing value analysis
@@ -40,9 +40,9 @@ All validated via ANOVA.
 
 Architecture of NN:
 
-Dense(32) → BN → ReLU
-Dense(16) → BN → ReLU
-Dense(8) → BN → ReLU
+Dense(32) → BN → ReLU<br>
+Dense(16) → BN → ReLU<br>
+Dense(8) → BN → ReLU<br>
 Dense(3) → Softmax
 
 
@@ -51,7 +51,7 @@ Dense(3) → Softmax
 ```bash
 pip install -r requirements.txt
 jupyter notebook taxi-pricing-project.ipynb
-
+```
 
 Deep learning performed best for surge pricing prediction, outperforming traditional ML models.
 Feature engineering and proper preprocessing played a key role in improving accuracy.
