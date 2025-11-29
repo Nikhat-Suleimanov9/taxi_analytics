@@ -1,41 +1,42 @@
 # Taxi Surge Pricing Prediction
 
-Dataset source:
+**Dataset source:**
 https://www.kaggle.com/datasets/arashnic/taxi-pricing-with-mobility-analytics
 
-Workflow Summary
+##Workflow Summary
 
-1. EDA
+### 1. EDA
 Missing value analysis
 Distribution plots, boxplots, heatmaps
 Chi-Square & ANOVA statistical tests
 Correlation heatmaps
-Gender independent from all main features
-Type_of_Cab & Destination_Type strongly influence surge pricing
+Key finding:
+-**Gender** independent from all main features
+-**Type_of_Cab** & **Destination_Type** strongly influence surge pricing
 
-2. Preprocessing
+### 2. Preprocessing
 Missing value handling
 One-Hot Encoding for categorical data
 Scaling
 Stratified train/validation/test splits
 
-3. Feature Engineering
+### 3. Feature Engineering
 Customer_Loyalty
 Customer_Experience_Score
 Trip_Efficiency_Score
 Var_Mean (Var2, Var3)
 All validated via ANOVA.
 
-4.Modeling:
+### 4.Modeling:
 
 | Model                      | Accuracy            |
 | -------------------------- | ------------------- |
 | Dummy Classifier           | 43.1                |
-| Logistic Regression (OvR)  | 68                  |
-| Decision Tree              | 67                  |
-| KNN                        | 66                  |
+| Logistic Regression (OvR)  | 67.78                  |
+| Decision Tree              | 67.44                  |
+| KNN                        | 66.48                  |
 | Voting Classifier(OvR, DT, KNN) | 67.94             |
-| **Neural Network (Keras)** | ⭐ **Best Model** ⭐  |
+| **Neural Network (Keras)** | **68.34**  |
 
 Architecture of NN:
 
@@ -45,7 +46,9 @@ Dense(8) → BN → ReLU
 Dense(3) → Softmax
 
 
-To run the project:
+## How to Run
+
+```bash
 pip install -r requirements.txt
 jupyter notebook taxi-pricing-project.ipynb
 
