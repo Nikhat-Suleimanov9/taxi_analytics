@@ -3,29 +3,36 @@
 **Dataset source:**
 https://www.kaggle.com/datasets/arashnic/taxi-pricing-with-mobility-analytics
 
+## How to Run
+
+```bash
+pip install -r requirements.txt
+jupyter notebook taxi-pricing-project.ipynb
+```
+
 ## Workflow Summary
 
 ### 1. EDA
-Missing value analysis
-Distribution plots, boxplots, heatmaps
-Chi-Square & ANOVA statistical tests
-Correlation heatmaps
-Key finding:
--**Gender** independent from all main features
--**Type_of_Cab** & **Destination_Type** strongly influence surge pricing
+Missing value analysis<br>
+Distribution plots, boxplots, heatmaps<br>
+Chi-Square & ANOVA statistical tests<br>
+Correlation heatmaps<br>
+Key finding:<br>
+-**Gender** independent from all main features<br>
+-**Type_of_Cab** & **Destination_Type** strongly influence surge pricing<br>
 
 ### 2. Preprocessing
-Missing value handling
-One-Hot Encoding for categorical data
-Scaling
-Stratified train/validation/test splits
+Missing value handling<br>
+One-Hot Encoding for categorical data<br>
+Scaling<br>
+Stratified train/validation/test splits<br>
 
 ### 3. Feature Engineering
-Customer_Loyalty
-Customer_Experience_Score
-Trip_Efficiency_Score
-Var_Mean (Var2, Var3)
-All validated via ANOVA.
+Customer_Loyalty<br>
+Customer_Experience_Score<br>
+Trip_Efficiency_Score<br>
+Var_Mean (Var2, Var3)<br>
+All validated via ANOVA.<br>
 
 ### 4.Modeling:
 
@@ -45,15 +52,11 @@ Dense(16) → BN → ReLU<br>
 Dense(8) → BN → ReLU<br>
 Dense(3) → Softmax
 
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook taxi-pricing-project.ipynb
-```
-
 Deep learning performed best for surge pricing prediction, outperforming traditional ML models.
 Feature engineering and proper preprocessing played a key role in improving accuracy.
+
+
+
+
 
 
