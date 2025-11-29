@@ -56,7 +56,7 @@ Dense(3) → Softmax
 Deep learning performed best for surge pricing prediction, outperforming traditional ML models. 
 Feature engineering and proper preprocessing played a key role in improving accuracy. 
 
-Additionally, this Neural Network model did not only achieve the highest score in my evaluation, but outperfomed all other models from other public notebooks available on the Kaggle website 
+Additionally, this Neural Network model did not only achieve the highest score in my evaluation, but outperfomed all the other models from other public notebooks available on the Kaggle website 
 
 
 
