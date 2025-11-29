@@ -34,7 +34,7 @@ Trip_Efficiency_Score<br>
 Var_Mean (Var2, Var3)<br>
 All validated via ANOVA.<br>
 
-### 4.Modeling:
+### 4. Modeling:
 
 | Model                      | Accuracy            |
 | -------------------------- | ------------------- |
@@ -52,8 +52,10 @@ Dense(16) → BN → ReLU<br>
 Dense(8) → BN → ReLU<br>
 Dense(3) → Softmax
 
-Deep learning performed best for surge pricing prediction, outperforming traditional ML models.
-Feature engineering and proper preprocessing played a key role in improving accuracy.
+Deep learning performed best for surge pricing prediction, outperforming traditional ML models. 
+Feature engineering and proper preprocessing played a key role in improving accuracy. 
+
+Additionally, this Neural Network model did not only achieve the highest score in my evaluation, but outperfomed all other models from other public notebooks available on the Kaggle website 
 
 
 
