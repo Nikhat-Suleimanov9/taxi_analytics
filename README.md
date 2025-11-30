@@ -10,6 +10,9 @@ pip install -r requirements.txt
 jupyter notebook taxi-pricing-project.ipynb
 ```
 
+## Taxi Data Analytcs Report 
+The detailed report can be found here: [Taxi Data Analytcs Report ]( https://docs.google.com/document/d/11oT2UQd1-iDaByhOLQb_IHUd7USbty1TcE12Aj7qU6U/edit?usp=sharing)
+
 ## Workflow Summary
 
 ### 1. EDA
