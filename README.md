@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/arashnic/taxi-pricing-with-mobility-analytics
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook taxi-pricing-project.ipynb
+jupyter notebook Taxi-pricing-project.ipynb
 ```
 
 ## Taxi Data Analytcs Report 
