@@ -11,7 +11,12 @@ jupyter notebook taxi-pricing-project.ipynb
 ```
 
 ## Taxi Data Analytcs Report 
-The detailed report can be found here: [Taxi Data Analytcs Report ]( https://docs.google.com/document/d/11oT2UQd1-iDaByhOLQb_IHUd7USbty1TcE12Aj7qU6U/edit?usp=sharing)
+The detailed report can be found here:  
+[Taxi Data Analytics Report (Google Docs)](https://docs.google.com/document/d/11oT2UQd1-iDaByhOLQb_IHUd7USbty1TcE12Aj7qU6U/edit?usp=sharing)  
+or  
+[Click here to open the full project report (PDF included in this repository)](Taxi_data_analytics_report.pdf)
+
+
 
 ## Workflow Summary
 
